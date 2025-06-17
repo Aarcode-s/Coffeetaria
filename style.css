@@ -380,3 +380,8 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+/* utilities */
+.gap{
+  margin-bottom:7px;
+}
