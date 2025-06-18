@@ -381,7 +381,90 @@ button {
   align-items: center;
 }
 
-/* utilities */
+/* Utilities */
 .gap{
   margin-bottom: 7px;
+}
+
+/* Media Queries for Responsive Fixes */
+@media (max-width: 768px) {
+  header {
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .logo {
+    margin: 10px 0;
+  }
+
+ .hero{
+  padding-top: 20px;
+ }
+
+  .tagline {
+    font-size: 3rem;
+    top: 30%;
+    top: 57%;
+  }
+
+  .slogan {
+    font-size: 1.2rem;
+    top: 62%;
+    text-align: center;
+  }
+
+  .aboutcontainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .abouttext {
+    margin: 20px 0;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .memory {
+    padding: 20px;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .footertext {
+    font-size: 12px;
+    gap: 50px;
+  }
+
+  .first, .second, .third {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 20px;
+  }
 }
